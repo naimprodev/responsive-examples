@@ -67,19 +67,12 @@
         justify-content: space-evenly;
 
     }
-
     .grid-container {
-        grid-template-columns:3fr;
+        grid-template-columns: 1fr 1fr 2fr 2fr;
         grid-template-areas:
-            "aside main"
-            " ad footer"
+            "header header header header"
+            "nav nav nav nav"
+            " aside main main main "
+            "ad ad footer footer"
         ;
-    }
-    .grid-container{
-        grid-template-rows: repeat(1,);
-        grid-template-areas: 
-        "header"
-        "nav"
-        ;
-    }
 }
